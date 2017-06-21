@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Conway's Game of Life</title>
+    <meta name="description" content="Conway's Game of Life">
+    <meta name="author" content="Ryan Lucas">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div id="fps"></div>
+    <div id="generation"></div>
+    <div id="liveCells"></div>
+    <div id="options">
+        <div>
+            <label>Board Size: <input type="text" id="boardSize" value="65" /></label>
+            <button type="button" id="updateBoardSize">Update Board Size (stops simulation)</button>
+        </div>
+        <div>
+            <input type="range" id="density" value=".3" step=".01" min="0" max="1">
+            <button type="button" id="random">Randomize Board (stops simulation)</button>
+        </div>
+        <button type="button" id="start">Start</button>
+        <button type="button" id="stop" disabled="disabled">Stop</button>
+    </div>
+    <div id="board"></div>
+
+    <script src="bundle.js"></script>
+</body>
+
+</html>

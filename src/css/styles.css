@@ -1,0 +1,21 @@
+body {
+    background: black;
+    color: white;
+}
+
+#board {
+    margin: 0 auto;
+}
+
+.cell {
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    float: left;
+    font-size: 0px;
+    text-align: center;
+}
+
+.alive {
+    background: lime;
+}

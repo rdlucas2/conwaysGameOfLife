@@ -1,0 +1,13 @@
+{
+    "files": [
+        "src/main.ts",
+        "src/Models/Game.ts",
+        "src/Models/Board.ts",
+        "src/Models/Cell.ts",
+        "src/Models/Coordinate.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es2017"
+    }
+}
